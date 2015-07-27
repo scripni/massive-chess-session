@@ -1,0 +1,31 @@
+{
+  "name": "massive-chess-session",
+  "version": "0.0.1",
+  "description": "Chess session",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scripni/massive-chess-session.git"
+  },
+  "keywords": [
+    "massive-chess",
+    "chess"
+  ],
+  "author": "Andrei Scripniciuc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scripni/massive-chess-session/issues"
+  },
+  "dependencies": {
+    "network": "scripni/massive-chess-network"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "mocha": "~2.2.5",
+    "should": "~7.0.2",
+    "grunt-contrib-jshint": "~0.11.2"
+  }
+}
