@@ -1,10 +1,10 @@
 {
   "name": "massive-chess-session",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chess session",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "grunt jshint && mocha spec test"
   },
   "repository": {
     "type": "git",
