@@ -4,7 +4,7 @@
   "description": "Chess session",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "grunt jshint && mocha test"
   },
   "repository": {
     "type": "git",
